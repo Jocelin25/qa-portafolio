@@ -1,0 +1,5 @@
+# Caso de Prueba: Registro inválido con correo ya existente 
+
+| Id caso | Modúlo   | Descripcion                                                      | Precondiciones                            | Pasos                                  |    Datos de Prueba                 | Resultado Esperado                  | Resultado Obtenido     |  Estado     |
+|-------- |-------   |------------------------------------------------------------------| ------------------------------------------| ---------------------------------------| -----------------------------------| ------------------------------------| ----------------------- | ----------- |
+| TC006   | Registro | Verificar que el sistema no permita registrar un correo repetido | El ususario ya existe en la base de datos | 1. Abrir la aplicacion <br> 2. ir a la pantalla de regsitro <br> 3. Ingresar correo ya registrado <br> 4. Completar el resto de los campos <br> 5. Hacer clic en "Registrarse" | Email: jocelin@test.com <br> Password: Pass123 El sistema muestra un mensaje: "El correo ya está en uso" y no permite continuar | -   
